@@ -14,6 +14,8 @@
 		638F0C4D29871B1300DCAEB0 /* absenceRecorder1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F0C4C29871B1300DCAEB0 /* absenceRecorder1Tests.swift */; };
 		638F0C5729871B1300DCAEB0 /* absenceRecorder1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F0C5629871B1300DCAEB0 /* absenceRecorder1UITests.swift */; };
 		638F0C5929871B1300DCAEB0 /* absenceRecorder1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F0C5829871B1300DCAEB0 /* absenceRecorder1UITestsLaunchTests.swift */; };
+		638F0C6829880A9600DCAEB0 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F0C6729880A9600DCAEB0 /* student.swift */; };
+		638F0C6A29880B1500DCAEB0 /* division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F0C6929880B1500DCAEB0 /* division.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		638F0C5229871B1300DCAEB0 /* absenceRecorder1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = absenceRecorder1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638F0C5629871B1300DCAEB0 /* absenceRecorder1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = absenceRecorder1UITests.swift; sourceTree = "<group>"; };
 		638F0C5829871B1300DCAEB0 /* absenceRecorder1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = absenceRecorder1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		638F0C6729880A9600DCAEB0 /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		638F0C6929880B1500DCAEB0 /* division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		638F0C6529880A3600DCAEB0 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				638F0C6729880A9600DCAEB0 /* student.swift */,
+				638F0C6929880B1500DCAEB0 /* division.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 			files = (
 				638F0C3E29871B1100DCAEB0 /* ContentView.swift in Sources */,
 				638F0C3C29871B1100DCAEB0 /* absenceRecorder1App.swift in Sources */,
+				638F0C6A29880B1500DCAEB0 /* division.swift in Sources */,
+				638F0C6829880A9600DCAEB0 /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
