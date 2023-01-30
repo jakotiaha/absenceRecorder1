@@ -31,8 +31,8 @@ class Division{
     
     static let examples = [Division.createDivision(code: "cComW1-1", of: 12),
                            Division.createDivision(code: "cEcoX1-1", of: 12),
-                           Division.createDivision(code: "cComW1-1", of: 12),
-                           Division.createDivision(code: "cComW1-1", of: 12)]
+                           Division.createDivision(code: "MdaY-1", of: 12),
+                           Division.createDivision(code: "MdpV-1", of: 12)]
     #endif
     
 }
