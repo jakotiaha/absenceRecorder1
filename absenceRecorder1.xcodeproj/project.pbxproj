@@ -94,8 +94,9 @@
 		638F0C3A29871B1100DCAEB0 /* absenceRecorder1 */ = {
 			isa = PBXGroup;
 			children = (
+				638F0C6629880A4C00DCAEB0 /* view */,
+				638F0C6529880A3600DCAEB0 /* model */,
 				638F0C3B29871B1100DCAEB0 /* absenceRecorder1App.swift */,
-				638F0C3D29871B1100DCAEB0 /* ContentView.swift */,
 				638F0C3F29871B1300DCAEB0 /* Assets.xcassets */,
 				638F0C4129871B1300DCAEB0 /* Preview Content */,
 			);
@@ -125,6 +126,21 @@
 				638F0C5829871B1300DCAEB0 /* absenceRecorder1UITestsLaunchTests.swift */,
 			);
 			path = absenceRecorder1UITests;
+			sourceTree = "<group>";
+		};
+		638F0C6529880A3600DCAEB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		638F0C6629880A4C00DCAEB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				638F0C3D29871B1100DCAEB0 /* ContentView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
