@@ -8,19 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var divisions: [Division]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Code: \(divisions[0].code)")
+         
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(divisions: Division.examples)
     }
 }
+
