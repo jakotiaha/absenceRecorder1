@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DivisionsView: View {
-    //var divisions: [Division]
+    
     @EnvironmentObject var state: StateController
     @State private var currentDate: Date = Date()
     

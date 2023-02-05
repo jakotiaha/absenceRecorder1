@@ -21,7 +21,7 @@
 		63A7BCD1298D636200C59CA4 /* AbsenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7BCD0298D636200C59CA4 /* AbsenceView.swift */; };
 		63A7BCD3298D667A00C59CA4 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7BCD2298D667A00C59CA4 /* RootTabView.swift */; };
 		63A7BCD5298D688900C59CA4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7BCD4298D688900C59CA4 /* StatisticsView.swift */; };
-		63A7BCD7298D68C600C59CA4 /* StatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7BCD6298D68C600C59CA4 /* StatsController.swift */; };
+		63A7BCD7298D68C600C59CA4 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7BCD6298D68C600C59CA4 /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		63A7BCD0298D636200C59CA4 /* AbsenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceView.swift; sourceTree = "<group>"; };
 		63A7BCD2298D667A00C59CA4 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		63A7BCD4298D688900C59CA4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
-		63A7BCD6298D68C600C59CA4 /* StatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsController.swift; sourceTree = "<group>"; };
+		63A7BCD6298D68C600C59CA4 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 				638F0C3B29871B1100DCAEB0 /* absenceRecorder1App.swift */,
 				638F0C3F29871B1300DCAEB0 /* Assets.xcassets */,
 				638F0C4129871B1300DCAEB0 /* Preview Content */,
-				63A7BCD6298D68C600C59CA4 /* StatsController.swift */,
+				63A7BCD6298D68C600C59CA4 /* StateController.swift */,
 			);
 			path = absenceRecorder1;
 			sourceTree = "<group>";
@@ -306,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				638F0C3E29871B1100DCAEB0 /* DivisionsView.swift in Sources */,
-				63A7BCD7298D68C600C59CA4 /* StatsController.swift in Sources */,
+				63A7BCD7298D68C600C59CA4 /* StateController.swift in Sources */,
 				638F0C712988191400DCAEB0 /* divisionView.swift in Sources */,
 				63A7BCD3298D667A00C59CA4 /* RootTabView.swift in Sources */,
 				638F0C3C29871B1100DCAEB0 /* absenceRecorder1App.swift in Sources */,

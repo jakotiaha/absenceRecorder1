@@ -11,5 +11,5 @@ class StateController: ObservableObject {
     @Published var divisions: [Division]
     
     init(){
-        divisions = Divisions.examples    }
+        divisions = Division.examples    }
 }
