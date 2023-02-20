@@ -17,7 +17,7 @@ struct RootTabView: View {
                 }
             StatisticsView()
                 .tabItem {
-                    Image(systemName: "chart.pie.fill")
+                    Image(systemName: "chart.pie")
                     Text("Statistics")
                 }
         }

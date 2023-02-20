@@ -17,4 +17,9 @@ class Student{
         self.surname = surname
         self.birthday = birthday
     }
+    
+    #if DEBUG
+    static let example = Student(forename:"Jamie", surname:"Charles", birthday: Date())
+    static let examples = [example]
+    #endif
 }
